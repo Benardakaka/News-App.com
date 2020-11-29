@@ -4,48 +4,35 @@
 
 ## Description
 
-This is an application that dispays a list different news sources from around the world.the user can click on the view the articles to see more articles available on the related topic.The user can also click on the read more to read more details on the original article.
-
-
+This is an application that dispays a list different news sources from around the world.the user can click on the view the articles to see more articles available on the related topic.
 
 ## User Stories
-The user would like to.. :
-* Create an account for the application.
-* Store my existing acounts login details for various accounts that i have registered for.
-* Generate new password for an account that i haven't registered for and store it with the account name.   
-* Delete stored account login details that i do now want anymore.
+The user would like to.... :
+* See various news sources and select the ones they prefer  to view.
+* View all news sources from the source they selected.
+* See Image description and time the news article was created. 
+* Click on an article and read it fully from the news source
 
 
+## Behaviour Driven Development
 
-## Features
-
-
-As a user of the terminal application you will be able to:
-
-1. Create an account for the application
-2. Log into your account
-3. Add credentials for different accounts
-4. Store and generate passwords
-6. Search for a saved credential
-8. Delete a saved credential
+| Behaviour | Input | Output |
+| :---------------- | :---------------: | ------------------: |
+|To display various news sources| Click the View Articles button|Redirected to a page with a list of articles from the source |
+|Display the articles for the news source selected| Click Read Article| Redirected to the news source's site to read the entire article|
 
 
+## Built With
 
-
-2. Clone the project.
-
-3. Get into Python folder (cd into Python).
-
-4. If you have all the Pre-requisites you can run the application.
-
-### Technologies and Pre-requisites
-* [Bootstrap4]
-* [Python3.6]
+* [Python3.8](https://docs.python.org/3/)
+* [FLACK]
+* [BOOTSTRAP]
 * [HTML]
 * [CSS]
-**What you need to install the application and how to install them.**
 
-```
+
+## Support and contact details
+ Incase you come across errors, have questions, ideas ,concerns, or want to contribute to the application, feel free to reach me at :benardakaka48@gmail.com
 
 
 ### License
