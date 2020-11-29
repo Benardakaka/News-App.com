@@ -84,7 +84,7 @@ def processArticles(articlesList):
     return articlesResults
 
 
-def search_movie(news_name):
+def search_news(news_name):
     search_news_url = 'https://api.themoviedb.org/3/search/news?api_key={}&query={}'.format(
         api_key, news_name)
     with urllib.request.urlopen(search_news_url) as url:
