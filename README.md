@@ -1,8 +1,8 @@
 # News-App.com
 
-#### Author: [Benard Akaka](https://github.com/Benardakaka)
+# Author: [Benard Akaka](https://github.com/Benardakaka)
 
-## Description
+# Description
 
 This is an application that dispays a list different news sources from around the world.the user can click on the view the articles to see more articles available on the related topic.
 
