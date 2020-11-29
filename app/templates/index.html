@@ -2,13 +2,14 @@
 {% block styles%}
     {{ super() }}
    <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
-<h1><b><i>HELLO WELCOME TO BeNKaKa's New-App.com.</i></b></h1>
+
 {% endblock %}
 {% import 'macros.html' as macro %}
 
 {% block content %}
 
 <div class="container-fluid">
+   <h1><b><i>HELLO WELCOME TO BeNKaKa's New-App.com.</i></b></h1>
 <form>
    <input type="text" name="news_query" placeholder="Search for the news" style="background-color: beige;" class="form-control">
    <input type="submit" value="Submit" class="btn btn-primary">

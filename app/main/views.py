@@ -8,7 +8,7 @@ def index():
 
     business = getSources('business')
     entertainment = getSources('entertainment')
-    # general = getSources('general')
+    general = getSources('general')
     health  = getSources('health')
     science = getSources('science')
     sports = getSources('sports')
