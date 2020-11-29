@@ -4,7 +4,7 @@
 
 ## Description
 
-This is a python application that manages our passwords and even create new passwords for us.
+This is an application that dispays a list different news sources from around the world.the user can click on the view the articles to see more articles available on the related topic.The user can also click on the read more to read more details on the original article.
 
 
 
@@ -46,34 +46,6 @@ As a user of the terminal application you will be able to:
 **What you need to install the application and how to install them.**
 
 ```
-Python3.6
-```
-
-To Install **python 3.6** on terminal execute
-
-```
-apt-get install python3.6
-```
-
-```
-apt-get install pip3
-```
-
-## Running the application
-
-1. Navigate into the cloned folder using terminal and enter command `./user.py` to run the app.
-The app will open on terminal 
-
-2. Follow and answer the prompts to use the application.
-
-## Behaviour Driven Development
-| Behaviour | Input | Output |
-| :---------------- | :---------------: | ------------------: |
-|Open the application on the terminal | Run the command ```$ ./user.py```|Hello Welcome to your Password 
-
-## Built With
-
-* [Python3.6](https://docs.python.org/3/)
 
 
 ### License
