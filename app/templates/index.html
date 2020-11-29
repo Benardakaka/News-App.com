@@ -1,0 +1,38 @@
+{% extends 'base.html'%}
+{% block styles%}
+    {{ super() }}
+   <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+
+{% endblock %}
+{% import 'macros.html' as macro %}
+
+{% block content %}
+
+
+<div class="container">
+   <h2 class="text-center h2"></h2>
+
+   <h3 class="text-uppercase text-primary text-center h1"><i>SPORTS :</i></h3>
+   <hr style="height:2px; width:100%; border-width:0; color: black; background-color: brown;">
+   <div class="tech">
+      {{ macro.displayNewsList(sports)}}
+   </div>
+   <h3 class="text-uppercase text-primary font-weight-bold text-center h1"><i>TECHNOLOGY NEWS :</i></h3>
+   <hr style="height:2px; width:100%; border-width:0; color: black; background-color: brown;">
+   <div class="tech">
+      {{ macro.displayNewsList(technology)}}
+   </div>
+   <h3 class="text-uppercase text-primary text-center h1"><i>BUSINESS NEWS :</i></h3>
+   <hr style="height:2px; width:100%; border-width:0; color: black; background-color: brown;">
+   <div class="tech">
+      {{ macro.displayNewsList(business)}}
+   </div>
+   <h3 class="text-uppercase text-primary text-center h1"><i><b>HEALTH NEWS :</b></i></h3>
+   <hr style="height:2px; width:100%; border-width:0; color: black; background-color: brown;">
+   <div class="tech mb-3">
+      {{ macro.displayNewsList(health)}}
+   </div>
+
+</div>
+
+{% endblock %}

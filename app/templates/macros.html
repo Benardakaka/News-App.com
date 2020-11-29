@@ -1,0 +1,13 @@
+{% macro displayNewsList(news_list) %}
+{% for news in news_list %}
+<!-- <div class="col-md-4"> -->
+    <div class="panel" style="width: 35rem;">
+        <h3 class="panel-heading text-uppercase h4" style="font-style: italic;">{{ news.name}}</h3>
+        <div class="panel-body">
+          <p class="card-text">{{ news.description}}</p>
+          <a href="/sources/{{news.id}}" class="btn btn-success">Check Article</a>
+        </div>
+      </div>
+<!-- </div> -->
+{% endfor %}
+{% endmacro %}

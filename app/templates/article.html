@@ -1,0 +1,35 @@
+{% extends 'base.html'%}
+<!-- Content block -->
+{% block content %}
+<h3 class="text-center`">{{title}}</h3>
+{% for article in article %}
+{% block styles%}
+    {{ super() }}
+   <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+{% endblock %}
+<div class="container">
+    <div class="row">
+       
+        <div class="col-md-6 mt-10 article">
+            <div class="card" style="width: 30rem; margin: 15px;">
+              <img class="card-img-top" src="{{article.urlToImage}}" style="height: 200px; width: 500px;" alt="{{ article.title }}">
+            </div>
+        </div>
+        <div class="col-md-6 mt-5">
+            <div class="card" style="width:70rem;">
+                <div class="card-body">
+                  <p class="card-text h4">{{ article.title }}</p>
+                  <p class="card-text">{{ article.description }}</p>
+                  <p>{{article.publishedAt}}</p>
+                  <a href="{{article.url}}" class="btn btn-primary">Continue Reading?</a>
+                </div>
+              </div>
+    
+        </div>
+    </div>
+</div>
+
+{% endfor %}
+{% endblock %}
+
+
